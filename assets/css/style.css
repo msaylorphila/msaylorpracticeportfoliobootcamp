@@ -24,9 +24,9 @@ nav ul {
     background-color: var(--section-backgrounds);
 }
 
-div {
-    width: 400px;
-    height: 600px;
+#profile-pic {
+    width: 50%;
+    height: 50%;
 }
 
 aside { 
@@ -57,5 +57,36 @@ body {
 
 body img {
     max-width: 100%;
-    height: auto;
+
+}
+
+.work {
+    display:flex;
+    flex-wrap: wrap;
+
+}
+
+#study-guide {
+    flex-basis: 100%;
+    
+}
+
+#accessibility {
+   
+
+}
+
+#tree {
+   
+
+}
+
+.flex-item {
+    display:flex;
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis:50%;
+    
+
+    
 }

@@ -1,60 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Margaret Saylor Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
-  </head>
+</head>
 
 <body>
-  <header>
-    <h1>Margaret Saylor</h1>
-    <nav>
-        <ul>
-            <a href="#about-me" class="nav-links">About Margaret</a>
-            <a href="#my-work" class="nav-links">My Work</a>
-            <a href="#contact-me" class="nav-links">Contact Me</a>
-        </ul>
-    </nav>
-  </header>
-<div>
-    <img src="./assets/images/profile picture.jpeg" alt="recent photo of developer" id="profile-pic"></img> 
-</div>
+    <header>
+        <h1>Margaret Saylor</h1>
+        <nav>
+            <ul>
+                <a href="#about-me" class="nav-links">About Margaret</a>
+                <a href="#my-work" class="nav-links">My Work</a>
+                <a href="#contact-me" class="nav-links">Contact Me</a>
+            </ul>
+        </nav>
+    </header>
+    <div class="About">
+        <img src="./assets/images/profile picture.jpeg" alt="recent photo of developer" id="profile-pic"></img>
+        <aside>
+            <h2 id="about-me">About Me</h2>
+            <p>I am a bootcamp student who is learning to code!</p>
+        </aside>
+    </div>
 
-  
-<aside>
+
+    <!-- <aside>
       <h2 id="about-me">About Me</h2>
       <p>I am a bootcamp student who is learning to code!</p>
- </aside>
+ </aside> -->
 
-  <main>
-    <section>
-      <h3 id="my-work">My Work</h3>
-      <ul>
-      <li><a href="https://msaylorphila.github.io/prework-study-guide/">
-      <img src="./assets/images/prework study guide screenshot.png" alt="screenshot-of-prework-study-guide"></img>
-      </a>
-    </li>
-    
-      <li><a href="https://msaylorphila.github.io/msaylor-accessibility-mod1/">
-      <img src="./assets/images/horiseon screenshot.png" alt="screenshot-of-horiseon-debugging"></img>
-      </a></li>
+    <main>
+        <section class="work">
+            <h3 id="my-work">My Work</h3>
+                <div id="study-guide" class="flex-item">
+                    <a href="https://msaylorphila.github.io/prework-study-guide/">
+                        <img src="./assets/images/prework study guide screenshot.png"
+                            alt="screenshot-of-prework-study-guide"></a></img>
+                    </a>
+                </div>
 
-      <li><a href="https://zapatopi.net/treeoctopus/"> Not my design, filler
-      <img src="./assets/images/fake website screenshot.png" alt="screenshot of a fake website to fill space"></img>
-      </a></li>
-      </ul>
-    </section>
+                <div id="accessibility" class="flex-item">
+                    <a href="https://msaylorphila.github.io/msaylor-accessibility-mod1/">
+                        <img src="./assets/images/horiseon screenshot.png" alt="screenshot-of-horiseon-debugging"></img>
+                    </a>
+                </div>
 
-    <section>
+                <div id="tree" class="flex-item">
+                    <a href="https://zapatopi.net/treeoctopus/"> Not my design, filler
+                        <img src="./assets/images/fake website screenshot.png"
+                            alt="screenshot of a fake website to fill space"></img>
+                    </a>
+                </div>
+            
+        </section>
+        <footer class="contact">
+            <h4 id="contact-me">Contact Me</h4>
+                <a href="https://github.com/msaylorphila">Github</a>
+                <a href="https://linkedin.com">Linkedin</a>
+                <a href="mailto:saylor.margaret@gmail.com">Email</a>
+        </footer>
+    </main>
+    <!-- <footer class="contact">
         <h4 id="contact-me">Contact Me</h4>
         <ul>
-            <li><a href="https://github.com/msaylorphila">Github</a></li>
-            <li><a href="https://linkedin.com">Linkedin</a></li>
-            <li><a href="mailto:saylor.margaret@gmail.com">Email</a></li>
+            <a href="https://github.com/msaylorphila">Github</a>
+            <a href="https://linkedin.com">Linkedin</a>
+            <a href="mailto:saylor.margaret@gmail.com">Email</a>
         </ul>
-    </section>
-  </main>
+    </footer> -->
 </body>
