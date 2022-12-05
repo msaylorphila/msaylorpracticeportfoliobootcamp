@@ -1,47 +1,48 @@
+/* created variables for header and background colors */
 :root {
     --head-backgrounds: #59a0f7;
     --section-backgrounds: #85ceff;
 }
-
+/* set a general background color for all sections */
 * {
     background-color: var(--section-backgrounds);
 }
-
+/* styled the display and postioning of my navigation links and fixed the menu to flow with the page */
 nav ul {
     display:inline;
     background-color: var(--section-backgrounds);
     position:fixed;
     width: 100%;
     margin: 0;
-    color:#59a0f7;
+    color:#01070e;
     top: 0;
     border-radius: 0;
 
 
 }
-
+/* set the background color of the navigation links section */
 .nav-links {
     background-color: var(--section-backgrounds);
 }
-
+/* changed the size of the photo of me */
 #profile-pic {
     width: 50%;
     height: 50%;
 }
-
+/* changed the font size of my about me header */
 #about-me {
     font-size: 50px;
 }
-
+/* changed the font size of the my work header */
 #my-work {
     font-size: 50px;
-    text-align: center;
+    
 }
-
+/* changed the font size of my contact me header */
 #contact-me {
     font-size: 50px;
-}
-
+} 
+/* wrote code to make my about me wrap with my photo of me */
 aside { 
     float:right;
     width: 40%;
@@ -50,41 +51,41 @@ aside {
     background-color: var(--section-backgrounds);
     
 }
-
+/* changed the font size in my about me */
 aside p {
    font-size: 20px;
 }
-
+/* changed the color font size and alignment of my initial header with my name */
 h1 {
     background-color: var(--head-backgrounds);
     margin: 21;
     text-align: center;
     font-size: 70px;
 }
-
+/* gave some style to my navigation bar */
 header {
     background-color: var(--head-backgrounds);
     border: 0;
     padding: 0;
 }
-
+/* gave some flex direction and display qualities to the body of my page */
 body {
     display:flex;
     flex-direction: column;
     line-height: 2;
 }
-
+/* set a max width for all photos within the body element */
 body img {
     max-width: 100%;
 
 }
-
+/* made it so the photos of my work would wrap around eachother and move with the page size */
 .work {
     display:flex;
     flex-wrap: wrap;
 
 }
-
+/* created a flex basis to have my first project display bigger */
 #study-guide {
     flex-basis: 100%;
     padding: 50px 50px 0 50px;
@@ -92,22 +93,21 @@ body img {
    
     
 }
-
+/* added padding around my other projects to help with the display */
 #accessibility {
     padding: 50px 50px;
 }
-
+/* more padding to help organize the page */
 #tree {
     padding: 50px 50px;
 }
 
-
+/* changed the font size for my contact section */
 footer a {
     font-size: 30px;
-    text-align: center;
     
 }
-
+/* gave a flex basis for my other works so that they would display smaller on the page  */
 .flex-item {
     display:flex;
     min-height: 200px;
@@ -117,6 +117,8 @@ footer a {
 
     
 }
+
+/* added a shadow when you hover for a little bit of ~spice~ */
 .flex-item:hover {
     box-shadow: inset 0px 0px 15px var(--head-backgrounds), 0 0 15px var(--head-backgrounds);
 }
