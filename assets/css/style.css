@@ -122,3 +122,15 @@ footer a {
 .flex-item:hover {
     box-shadow: inset 0px 0px 15px var(--head-backgrounds), 0 0 15px var(--head-backgrounds);
 }
+/* displayed knowledge of media queiries by making the navigation links changed color when screen is made smaller */
+@media screen and (max-width: 992px) {
+    .nav-links {
+      background-color: var(--head-backgrounds);
+    }
+}
+/* displayed knowledge of media queries by making my header revert to the section backgrounds color when made the size of a small smart phone */
+@media screen and (max-width: 576px) {
+    h1 {
+        background-color: var(--section-backgrounds);
+    }
+}
