@@ -86,9 +86,10 @@ body img {
 
 }
 /* created a flex basis to have my first project display bigger */
-#study-guide {
-    flex-basis: 100%;
+#a-bone {
+    flex-basis: 70%;
     padding: 50px 50px 0 50px;
+    width: 50%;
 
    
     
@@ -96,10 +97,12 @@ body img {
 /* added padding around my other projects to help with the display */
 #accessibility {
     padding: 50px 50px;
+    width: 50%;
 }
 /* more padding to help organize the page */
 #tree {
     padding: 50px 50px;
+    width: 50%
 }
 
 /* changed the font size for my contact section */
