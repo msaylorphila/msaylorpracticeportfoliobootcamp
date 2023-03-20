@@ -8,19 +8,33 @@
     <title>Margaret Saylor Portfolio</title>
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+
 </head>
 <!-- the main portion of my project -->
 <body>
     <!-- my initial header and navigation bar -->
     <header>
-        <h1>Margaret Saylor</h1>
-        <nav>
-            <ul>
-                <a href="#about-me" class="nav-links">About Margaret</a>
-                <a href="#my-work" class="nav-links">My Work</a>
-                <a href="#contact-me" class="nav-links">Contact Me</a>
-            </ul>
-        </nav>
+        <nav class="navbar is-warning" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+              <a class="navbar-item is-size-1 has-text-weight-semibold" id="homepagelink" href="/">
+                <h1>M. Saylor Portfolio</h1>
+              </a>
+              <span class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+    
+        </div>
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <a href="#about-me" class="navbar-item" >About Margaret</a> 
+                <a href="#my-work" class="navbar-item" >My Work</a>
+                <a href="#contact-me" class="navbar-item" >Contact Me</a>
+            </div>
+          </div>
+          <div class="navbar-end"></div>
     </header>
     <!-- My about me section with a linked photo of me-->
     <div class="About">
@@ -34,24 +48,23 @@
     <main>
         <section class="work">
             <h3 id="my-work">My Work</h3>
-            <div id="a-bone" class="flex-item">
-                    <a href="https://msaylorphila.github.io/A-Bone-To-Pick/">
-                        <img src="./assets/images/abonetopick.png"
-                            alt="a bone to pick"></a></img>
-                    </a>
-                </div>
-                <br>
-            <!--vilca events
-                  -->
-
-                  <div id="tree" class="flex-item">
-                    <a href="https://glacial-escarpment-38096.herokuapp.com/">
-                        <img src="./assets/images/vilcaevents.png"
-                            alt="vilca events"></img>
-                    </a>
-                </div>        
-    
-            
+            <div class="row d-flex">
+                <div class="card m-3">
+                    <div class="card-body">
+                        <a href="https://msaylorphila.github.io/A-Bone-To-Pick/">
+                            <img src="./assets/images/abonetopick.png"
+                                alt="a bone to pick"></a></img>
+                    </div>
+                  </div>
+                  <div class="row d-flex">
+                    <div class="card m-3">
+                        <div class="card-body">
+                            <a href="https://glacial-escarpment-38096.herokuapp.com/">
+                                <img src="./assets/images/vilcaevents.png"
+                                    alt="vilca events"></img>
+                            </a>
+                        </div>
+                      </div>
            
             
         </section>
